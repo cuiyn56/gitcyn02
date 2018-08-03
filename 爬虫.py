@@ -59,3 +59,6 @@ if __name__ == "__main__":
     print("getcode打印信息：%s"%(response.getcode()))#返回的是HTTP的状态码，如果返回200表示请求成功
 
     
+
+
+
