@@ -1,7 +1,15 @@
-```flow
-graph TB
-A[创业期:''不要用战术的勤奋掩盖战略的懒惰'']-->B[成熟期:''中国民企强化职业化管理能力的时机到了'']
-
-B[成熟期:''中国民企强化职业化管理能力的时机到了'']-->C[转型期:''我们要转换,慢慢在人力资源机制中,也要形成培养战略家思想家的土壤'']
+```
+graph LR
+subgraph Understand
+D[Transform]
+E[Vishualise]
+F[Model]
+end
+A[Import] -->B[Tidy]	
+B -->D[Transform]	
+D[Transform] -->E[Vishualise]	
+F[Model]-->D[Transform]	
+E[Vishualise]-->F[Model]
+F[Model]-->aa[communicate]
 
 ```
