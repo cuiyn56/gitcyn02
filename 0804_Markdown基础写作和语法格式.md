@@ -1,4 +1,4 @@
-# gitcyn02
+# cyn02
 # 1. 标题
 1-6级标题
 
@@ -168,3 +168,52 @@ int c = a+b;
 <img src="https://images2015.cnblogs.com/blog/1049916/201702/1049916-20170204184600558-1931830660.jpg"  alt=" " />
  </div>
 ？？？未起作用
+
+# 10. 待办事项
+
+- [x] 已完成项目1
+   - [x] 已完成事项1
+   - [x] 已完成事项2
+- [ ] 待办事项1
+- [ ] 待办事项2
+- 
+注意空格
+
+# 11. 绘图
+## 11.1 流程图
+```
+graph TD
+    a[christmas] -->b(go shopping)
+    b --> c{let me think}
+    c --> |1| d[laptop]
+    c --> |2| e[iphone]
+    c --> |3| f[car]
+```
+
+## 11.2 序列图
+```
+sequenceDiagram
+    loop every day
+        Alice ->> John: Hello John, how are you?
+        John -->>Alice: Great!
+    end
+```
+
+## 11.3 甘特图
+
+```
+gantt
+dateFormat YYYY-MM-DD
+title 产品计划表
+section 初期阶段
+明确需求:2016-03-01,10d
+section 中期阶段
+跟进开发:2016-03-11,15d
+section 后期阶段
+走查测试:2016-03-20,9d
+```
+注意：10d表示时间长度
+
+## 11.4 书写数学公式
+略
+
