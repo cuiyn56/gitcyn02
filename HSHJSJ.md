@@ -1,15 +1,7 @@
-```flow 
-st=>start: 开始 
-e=>end: 登录 
-io1=>inputoutput: 输入用户名密码 
-sub1=>subroutine: 数据库查询子类 
-cond=>condition: 是否有此用户 
-cond2=>condition: 密码是否正确 
-op=>operation: 读入用户信息
+```
+graph TD
+A[创业期:''不要用战术的勤奋掩盖战略的懒惰'']-->B[成熟期:''中国民企强化职业化管理能力的时机到了'']
 
-st->io1->sub1->cond 
-cond(yes,right)->cond2 
-cond(no)->io1(right) 
-cond2(yes,right)->op->e 
-cond2(no)->io1 
+B[成熟期:''中国民企强化职业化管理能力的时机到了'']-->C[转型期:''我们要转换,慢慢在人力资源机制中,也要形成培养战略家思想家的土壤'']
+
 ```
